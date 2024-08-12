@@ -1,0 +1,216 @@
+/* General Styles */
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo-container {
+  width:5%;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.btn-element {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #2b00ffb2;
+  border: solid 2px #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-element:hover {
+  background-color: #ffffff;
+  color: #2b00ffb2;
+  cursor: pointer;
+  border: solid 2px #2b00ffb2;
+}
+
+
+/* Form Container */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Container */
+.input-container {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input Elements */
+.input-element {
+  width: calc(100% - 10px); /* Full width minus padding */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Error Messages */
+.input-container p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: red;
+}
+
+/* Button */
+.input-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-post {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.blog-author-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #888;
+}
+
+.blog-author,
+.blog-email {
+  margin: 0;
+}
+
+
+.user-info {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 300px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info li {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+.user-info li:last-child {
+  border-bottom: none;
+}
+
+.user-info li strong {
+  color: #555;
+}
+
+.user-info li span {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+}
+
+
+.prompt-message {
+  font-family: Arial, sans-serif;
+  color: #555;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.prompt-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 2px;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.prompt-link:hover {
+  color: #2980b9; /* Darker blue on hover */
+  border-color: #2980b9; /* Darker underline on hover */
+}
+
